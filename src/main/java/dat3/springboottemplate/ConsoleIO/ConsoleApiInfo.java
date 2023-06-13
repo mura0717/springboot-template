@@ -1,4 +1,4 @@
-package com.example.springboottemplate.ConsoleIO;
+package dat3.springboottemplate.ConsoleIO;
 
 public class ConsoleApiInfo {
     public static void print()
@@ -10,7 +10,7 @@ public class ConsoleApiInfo {
     private static void printWelcome()
     {
         System.out.println();
-        System.out.println("Books Api v0.1 ");
+        System.out.println("Example API");
         System.out.println();
     }
 
@@ -24,7 +24,7 @@ public class ConsoleApiInfo {
 
     private static void printEndPoint(String path, String description)
     {
-        var domain = "\t http://localhost:8080/";
+        String domain = "\t http://localhost:8080/";
 
         System.out.println(domain + path + " : " + description);
     }

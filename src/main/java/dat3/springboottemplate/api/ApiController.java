@@ -1,4 +1,4 @@
-package com.example.springboottemplate.welcome.api;
+package dat3.springboottemplate.api;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,10 +9,10 @@ import org.springframework.web.servlet.view.RedirectView;
 @RestController
 @RequestMapping
 @CrossOrigin
-public class WelcomeApi {
+public class ApiController {
     @GetMapping("/")
     public RedirectView welcome(){
-        System.out.println("Hej");
+        System.out.println("Hello from ApiController");
         return new RedirectView("/swagger-ui/index.html");
     }
 }

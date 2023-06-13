@@ -1,14 +1,14 @@
-package com.example.springboottemplate;
+package dat3.springboottemplate;
 
-import com.example.springboottemplate.ConsoleIO.ConsoleApiInfo;
+import dat3.springboottemplate.ConsoleIO.ConsoleApiInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootTemplateApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootTemplateApplication.class, args);
+        SpringApplication.run(Application.class, args);
         ConsoleApiInfo.print();
     }
 
